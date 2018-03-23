@@ -1,0 +1,235 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear-fix {
+    clear: both;
+}
+/* wapper*/
+header, main, footer, nav {
+    width: 1070px;
+    margin:auto;
+    border: 1px solid #e8e8e8;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #ff0000 !important;
+    text-decoration: none;
+}
+/*-------------
+* HEADER
+* Description: ;
+-------------*/
+.header {
+    background: #FFA07A;
+    overflow: hidden;
+}
+.top-header {
+    padding: 20px;
+    overflow: auto;
+}
+.top-header .logo {
+    width: 150px;
+    float: left;
+}
+.top-header .logo > img {
+    width: 100%;
+}
+#main-content {
+    border: 1px solid #e8e8e8;
+    overflow: auto;
+    box-sizing:border-box;
+}
+.primary, .sidebar {
+    padding: 10px;
+}
+.primary {
+    float: left;
+    width: 73%;
+    overflow: auto;
+}
+.sidebar {
+    width: 20%;
+    float: right;
+}
+.link-top-right li {
+    display:inline;
+    overflow:auto;
+    float:right;
+    margin: 5px;
+}
+.link-top-left{
+    float:left;
+    margin:10px;
+    color:white;
+}
+.link{
+    border-right: 1px solid white;
+    padding: 0 15px;
+}
+.link a{
+     color:white;
+}
+.top-control a {
+    float: right;
+    font-size: 20px;
+    border: 1px solid #FFA07A;
+    background-color: white;
+    color: blue;
+    padding:5px 10px;
+    display: block;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#main-nav{
+    background-color:#F08080;
+    height: 40px;
+}
+.menu li {
+    display: inline;
+    border-right:1px solid white ;
+    font-size: 20px;
+    line-height: 40px;
+}
+.menu li a {
+    padding: 20px;
+    color: white;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+.box__header{
+        border-bottom: 1px solid #778899;
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding-bottom: 5px;
+}
+.list_item{
+    font-size: 20px;
+    padding: 10px;
+}
+.product_photos div {
+    display: inline;
+    margin: 25px;
+}
+.listing_news li {
+    font-size: 20px;
+    margin:20px;
+    border-bottom: 1px dotted #778899;
+    padding-bottom: 20px;
+}
+.item_news a,time{
+    display: block;
+    padding: 5px;
+}
+.ads{
+    border:2px solid #778899;
+    height: 70px;
+    text-align: center;
+    line-height:70px;
+    /*display: flex;
+    justify-content:center;
+    align-items:center;*/
+}
+.title{
+    font-size:20px;
+}
+.link-botton-right li{
+    display:inline;
+    /*float:right top ;*/
+}
+
+#main-content{
+    padding:30px 10px;
+    box-sizing: border-box;
+}
+.product_image{
+    float:left;
+}
+.title{
+    text-align: center;
+    /*font-size: 30px*/;
+    margin:20px 0px;
+}
+}
+.box__header{
+    font-size: 26px;
+}
+.product_photos{
+    clear: both;
+    margin: 30px;
+}
+.information{
+    float: left;
+    width:50%;
+}
+.footer{
+    clear: both;
+}
+.copyright{
+    float:right;
+    margin: 20px;
+}
+.link-botton-right li {
+     color:blue;
+    border-right: 1px solid #778899;
+    padding: 2px;
+    float:right;
+    font-size: 20px;
+}
+.information{
+    margin: 20px;
+}
+.end{
+    clear: both;
+    float: right;
+}
+.product_image img{
+    width: 350px;
+    overflow: hidden;
+}
+.product_metadata{
+    overflow: hidden;
+}
+

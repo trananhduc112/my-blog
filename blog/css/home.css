@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: roboto;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.backgroud-head{
+    background-color:#E65743;
+}
+.menu-top a{
+    color: white;
+}
+.cover-image{
+    width: 100%;
+}
+.bg-content{
+    background-color:#F2F2F2;
+}
+.bg-iterm{
+    background:#FFFFFF;
+}
+.bd-iterm{
+    border:1px solid #E7E7E7;
+    border-top:none;
+}
+.search{
+        width:130px !important;
+    }
+
+.text-20{
+    font-size: 20px;
+}
+.text-14{
+    font-size: 14px;
+}
+.text-16{
+    font-size: 16px;
+}
+.avatar-x {
+    height:50px;
+    width: 50px;
+;
+}
+.avatar-2x{
+    height:30px;
+}
+.user {
+    border-left:1px solid #DC143C;
+    padding-left: 15px;
+}
+.user button {
+    background-color:#E65743 !important;
+    outline: none;
+    border:none;
+}
+.user button:focus {
+    background-color:#E65743 !important;
+    border:none;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.containers {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 26px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containers input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border:1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containers input:checked ~ .checkmark {
+    background-color: #E65743;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containers input:checked ~ .checkmark:after {
+    display: block;
+}
+.containers input:checked ~ .checkmark:before {
+    display: none;
+}
+
+/* Style the checkmark/indicator */
+.containers .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.containers .checkmark:before {
+    content:"+";
+}
+.view-more a{
+    color:  #E65743;
+}
+.view-more a:hover{
+    color:  #E65743;
+    text-decoration: none;
+}
+.save, .message {
+    color: white;
+    border-radius: 5px;
+}
+.save {
+    background:#79D396;
+    padding: 7px 10px;
+}
+.message{
+    background:#E65743;
+    padding: 7px;
+}
+.full-time{
+    padding: 10px;
+    color: white;
+    background: #79D396;
+    border-radius: 20px;
+}
+.content-iterm{
+    line-height: 1.9;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.block-ellipsis {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.suggest{
+    color:#B4B4B4;
+    background:#E5E5E5;
+    padding: 8px 10px;
+    border-radius: 14px;
+}
+.logo{
+    height: 25px;
+}
+.bg-red{
+    background:#E65743;
+}
+.bg-green{
+    background:#79D396;
+}
+.bg-blue{
+    background:#64A5F5;
+}
+.bd-iterms{
+    border-top:5px solid #E65743 ;
+}
+@media (min-width: 100px) {
+    .huhu {
+        position: relative;
+    }
+    .avatar{
+        height:150px;
+        width: 150px;
+        border:7px solid white;
+        border-radius: 100px;
+        position: absolute;
+        left:55px;
+        bottom:-65px;
+        z-index: 2;
+    }
+}
+@media (min-width: 576px) {
+    .search{
+        width:330px !important;
+    }
+}
+@media (min-width: 768px) {
+    .size{
+        font-size: 13px;
+    }
+ }
+@media (min-width: 992px) {
+    .size{
+        font-size: 12px;
+    }
+    .search{
+        width:170px !important;
+    }
+    .follow{
+        margin:90px 20px 0 20px;
+        padding: 5px 12px;
+        background:#79D396;
+        color: white;
+        border-radius: 5px;
+    }
+    .hire{
+        padding: 5px 27px;
+        background:#64A5F5;
+        color: white;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1200px) {
+    .search{
+        width:325px !important;
+    }
+    .follow{
+        margin:130px 40px 0 40px;
+        padding: 10px 25px;
+        background:#79D396;
+        color: white;
+        border-radius: 5px;
+    }
+    .hire{
+        padding: 10px 37px;
+        background:#64A5F5;
+        color: white;
+        border-radius: 5px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .huhu {
+        position: relative;
+    }
+    .avatar{
+        height:200px;
+        width: 200px;
+        border:7px solid white;
+        border-radius: 100px;
+        position: absolute;
+        left:80px;
+        bottom:-100px;
+        z-index: 2;
+    }
+    .size{
+        font-size: 16px;
+    }
+    .text-24{
+        font-size: 24px;
+        line-height:1.5 ;
+    }
+    .hihi{
+        height:100px;
+        position: relative;
+    }
+    .avatar-a{
+        height:130px;
+        border:5px solid white;
+        position: absolute;
+        left:95px;
+        bottom:-65px;
+    }
+}
+
+
